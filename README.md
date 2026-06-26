@@ -8,7 +8,7 @@ This repository contains the full conversation transcripts and annotated dataset
 
 ### `/dataset/`
 - **rhetorical_scenarios.csv**  
-  The full annotated dataset, including elicitation moves, constraint types, question types, and outcome summaries.
+  The full annotated dataset, including elicitation moves, constraint types, question types, and outcome summaries. Best viewed locally for full text visibility.
 
 - **rhetorical_variable_dictionary.csv**  
   Definitions for each column in the dataset.
