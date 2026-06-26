@@ -1,0 +1,7 @@
+﻿variable_name,data_type,allowed_values,description,notes
+scenario_id,string (char),"A,B,C,D,E","A letter identifying the synthetic scenario, each corresponding to a distinct form of constraint collapse.",Matches scenario descriptions in the paper.
+turn_id,integer,positive integers,Sequential numeric index for each user or system message within a scenario.,Resets to 1 for each scenario.
+speaker,string,"user, system",Indicates whether the turn was produced by the user or by Rhetorical.,
+text,string (multiline),free text,Raw natural language content of the message.,Stored in a single cell even if multi-paragraph.
+elicitation_move,string,"Clarification, Distinction (or other types defined in Section 3)",The elicitation move type used by Rhetorical in that turn.,n/a for user turns.
+constraint_types,string (comma-separated),free text,The categories of constraints Rhetorical inferred in that turn.,n/a for user turns.
